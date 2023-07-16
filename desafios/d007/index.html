@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1f60e;
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/dragon-ball300.JPEG">
+        <source media="(max-width: 1050px)" srcset="imagens/dragon-ball700.JPEG">
+        <img src="imagens/dragon-ball1000.JPEG" alt="">
+    </picture>
+    
+</body>
+</html>
